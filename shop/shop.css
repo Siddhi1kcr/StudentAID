@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+#navbar{
+    display: flex;
+    position: relative;
+}
+#navbar::before{
+    content: "";
+    background-color: #30475E;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+#logo i{
+    margin: 1rem;
+    margin-top: 3.2rem;
+    margin-left: 3rem;
+}
+#name h1{
+    margin-top: 2.2rem;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.color{
+    color: #F05454;
+    font-family: 'Courier New', Courier, monospace;
+}
+#navbar ul{
+    display: flex;
+    margin: 2.2rem;
+    margin-left: 22rem ;
+    margin-top: 2.5rem;
+}
+#navbar ul li a{
+    font-size: 1.5rem;
+    padding: 0 2.5rem;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#navbar ul li a:hover{
+    color: #F05454;
+    transition: 0.3s ease;
+}
+.shop{
+    position: relative;
+    height: 20rem;
+}
+.shop::before{
+    content: "";
+    background: url(girl.jpg) no-repeat center center/cover;
+    position: absolute;
+    filter: grayscale(60%);
+    height: 20rem;
+    width: 100%;
+    z-index: -1;
+}
+.shop h1{
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+    padding-top: 6rem;
+}
+.banner{
+    height: 20rem;
+    width: 100%;
+    border: 2px solid red;
+}
+.services{
+    background-color: #30475E;
+    height: 80rem;
+    width: 100vw;
+}
+.services h1{
+    text-align: center;
+    color: white;
+    font-size: 3.3rem;
+    font-weight: bold;
+    padding: 1rem 0;
+    font-family: 'Nanum Myeongjo', serif;;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.product{
+    height: 30rem;
+    width: 20rem;
+    border-radius: 1rem;
+    margin: 3rem 3rem;
+    background-color: white;
+    
+}
+.product img{
+    height: 22rem;
+    width: 19rem;
+    margin: 0.5rem;
+    border-radius: 0.7rem;
+}
+.product:hover{
+    box-shadow: 0.1rem 0.1rem 2rem white;
+    transition: 0.3s ease;
+}
+.product h2{
+    font-size: 2rem;
+    font-family: cormorant garamond,serif;
+    text-align: center;
+}
+.buy{
+    height: 3rem;
+    width: 19rem;
+    margin-top: 0.8rem;
+    margin-left: 0.5rem;
+    border-radius: 0.7rem;
+    border-color: black;
+    border-style: solid;
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+}
+.buy:hover{
+    color: black;
+    background-color: #F05454;
+    border-color: #F05454;
+    font-weight: bold;
+}
+#footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fbox1{
+    height: 25rem;
+    width: 30vw;
+    background-color: #30475E;
+    display: flex;
+}
+.fbox2{
+    height: 25rem;
+    width: 69%;
+    background-color: white;
+    display: flex;
+}
+#flogo{
+    margin: 22%;
+    margin-top: 40%;
+    margin-right: 0;
+}
+#fname{
+    margin-top: 38%;
+    margin-left: 3%;
+}
+#fname h1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.items h3{
+    color: #F05454;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 4rem 0 1rem 7rem;
+    font-weight: bold;
+}
+.points{
+    margin:1rem 0 0 7rem;
+}
+.points a{
+    color: #30475E;
+}
+.points a:hover{
+    color: black;
+    transition: 0.3s ease;
+    text-decoration: underline;
+}
+.fbox2 i{
+    margin: 7rem 0rem 0 4rem;
+}
+.iconsNcall{
+    display: flex;
+    flex-direction: column;
+}
+.callus{
+    height: 6rem;
+    width: 22rem;
+    border: 3px solid #30475E;
+    margin: 3rem 0 0 4rem;
+    display: flex;
+    border-radius: 20px;
+}
+.callus i{
+    margin: 3rem 0 0 2rem;
+}
+.callus h3{
+    margin: 1.5rem 0 0 2rem;
+}
+.copyright{
+    color: #F05454;
+}
+.copyright h4{
+    margin: 5rem 0 0 11rem;
+}
+.icons{
+    margin-left: 2rem;
+}
+

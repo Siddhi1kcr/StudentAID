@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    display: flex;
+    border: 0.1rem solid black;
+    margin: 0.4rem;
+    height: 44rem;
+    border-radius: 1rem;
+}
+#logo i{
+    margin: 1rem;
+    margin-top: 2.2rem;
+    margin-left: 2rem;
+}
+a{
+    text-decoration: none;
+}
+#name h1{
+    margin-top: 1.4rem;
+    margin-right: 0rem;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.color{
+    color: #F05454;
+    font-family: 'Courier New', Courier, monospace;
+}
+.welcomepic{
+    height: 46rem;
+    width: 45rem;
+    position: relative;
+    display: flex;
+}
+.welcomepic::before{
+    content: "";
+    background: url(books.jpg) no-repeat center top / cover;
+    position: absolute;
+    filter: grayscale(20%);
+    width: 45rem;
+    height: 44rem;
+    z-index: -1;
+    border-radius: 0.9rem 0 0 0.9rem;
+}
+.welcomepic h1{
+    font-size: 3.5rem;
+    color: white;
+    text-align: center;
+    margin-top: 5rem;
+    margin-right: 14rem;
+}
+.login{
+    height: 46rem;
+    width: 49rem;
+    display: flex;
+    flex-direction: column;
+}
+.login h1{
+    margin-left: 5rem;
+    font-size: 2.5rem;
+    margin-top: 7rem;
+    line-height: 2rem;
+}
+.login h3{
+    margin-left: 5rem;
+    color: #F05454;
+    margin-top: 0.5rem;
+}
+.login h2{
+    margin: 1rem;
+    margin-left: 32rem;
+
+}
+input{
+    margin: 3rem 5rem 0.5rem 5rem;
+    width: 39rem;
+    height: 2rem;
+}
+button{
+    margin-top: 5rem;
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 0.3rem;
+    border-color: #F05454;
+    background-color: #F05454;
+    margin-left: 17rem;
+}
+button:hover{
+    border-color: black;
+    background-color: black;
+    margin-left: 17rem;
+    color: #F05454;
+}

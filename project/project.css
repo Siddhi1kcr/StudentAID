@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+#navbar{
+    display: flex;
+    position: relative;
+}
+#navbar::before{
+    content: "";
+    background-color: #30475E;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+#logo i{
+    margin: 1rem;
+    margin-top: 3.2rem;
+    margin-left: 3rem;
+}
+#name h1{
+    margin-top: 2.2rem;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.color{
+    color: #F05454;
+    font-family: 'Courier New', Courier, monospace;
+}
+#navbar ul{
+    display: flex;
+    margin: 2.2rem;
+    margin-left: 22rem ;
+    margin-top: 2.5rem;
+}
+#navbar ul li a{
+    font-size: 1.5rem;
+    padding: 0 2.5rem;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#navbar ul li a:hover{
+    color: #F05454;
+    transition: 0.3s ease;
+}
+.project{
+    height: 15rem;
+    width: 100%;
+    background-color: white;
+    background: linear-gradient(to right, #30475E, white , #F05454);
+}
+.project h1{
+    text-align: center;
+    padding-top: 5rem;
+    font-size: 3rem;
+    color: black;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+}
+.itemp{
+    height: 20rem;
+    width: 90rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    margin: 3rem;
+    display: flex;
+}
+.itemp img{
+    margin: 2rem;
+    height: 16rem;
+    width: 16rem;
+    border-radius: 50%;
+}
+.info{
+    padding: 1rem;
+}
+.info h3{
+    color: #30475E;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+
+}
+.itemp button{
+    height: 3rem;
+    font-size: 1.5rem;
+    color: white;
+    background-color: black;
+    width: 15rem;
+    margin: 1rem 2rem 2rem 2rem ;
+    border-radius: 0.3rem;
+}
+.itemp button:hover{
+    color: black;
+    background-color: #F05454;
+}
+#footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fbox1{
+    height: 25rem;
+    width: 30vw;
+    background-color: #30475E;
+    display: flex;
+}
+.fbox2{
+    height: 25rem;
+    width: 69%;
+    background-color: white;
+    display: flex;
+}
+#flogo{
+    margin: 22%;
+    margin-top: 40%;
+    margin-right: 0;
+}
+#fname{
+    margin-top: 38%;
+    margin-left: 3%;
+}
+#fname h1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.items>h3{
+    color: #F05454;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 4rem 0 1rem 7rem;
+    font-weight: bold;
+}
+.points{
+    margin:1rem 0 0 7rem;
+}
+.points a{
+    color: #30475E;
+}
+.points a:hover{
+    color: black;
+    transition: 0.3s ease;
+    text-decoration: underline;
+}
+.fbox2 i{
+    margin: 7rem 0rem 0 4rem;
+}
+.iconsNcall{
+    display: flex;
+    flex-direction: column;
+}
+.callus{
+    height: 6rem;
+    width: 22rem;
+    border: 3px solid #30475E;
+    margin: 3rem 0 0 4rem;
+    display: flex;
+    border-radius: 20px;
+}
+.callus i{
+    margin: 3rem 0 0 2rem;
+}
+.callus h3{
+    margin: 1.5rem 0 0 2rem;
+}
+.copyright{
+    color: #F05454;
+}
+.copyright h4{
+    margin: 5rem 0 0 11rem;
+}
+.icons{
+    margin-left: 2rem;
+}

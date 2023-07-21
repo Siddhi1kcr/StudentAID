@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+#navbar{
+    display: flex;
+    position: relative;
+}
+#navbar::before{
+    content: "";
+    background-color: #30475E;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+#logo i{
+    margin: 1rem;
+    margin-top: 3.2rem;
+    margin-left: 3rem;
+}
+#name h1{
+    margin-top: 2.2rem;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.color{
+    color: #F05454;
+    font-family: 'Courier New', Courier, monospace;
+}
+#navbar ul{
+    display: flex;
+    margin: 2.2rem;
+    margin-left: 22rem ;
+    margin-top: 2.5rem;
+}
+#navbar ul li a{
+    font-size: 1.5rem;
+    padding: 0 2.5rem;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#navbar ul li a:hover{
+    color: #F05454;
+    transition: 0.3s ease;
+}
+.page{
+    display: flex;
+}
+.shoppingcart1{
+    height: 35rem;
+    width: 40rem;
+    border: 0.1rem solid white;
+    margin: 7rem auto;
+    border-radius: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom right, #4c6e90, #FAFCFF);
+}
+.shoppingcart1 h1{
+    margin: 1rem;
+    font-size: 2.5rem;
+    color: #FAFCFF;
+    text-align: center;
+}
+.shoppingcart2{
+    height: 45rem;
+    width: 40rem;
+    border: 0.1rem solid white;
+    margin: 2rem auto;
+    border-radius: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom right, #4c6e90, #FAFCFF);
+}
+.shoppingcart2 h1{
+    margin: 1rem;
+    font-size: 2.5rem;
+    color: #FAFCFF;
+    text-align: center;
+}
+.shoppingcart2 input{
+    height: 2rem;
+    margin-top: 2rem;
+    width: 30rem;
+    margin-left: 5rem;
+    border-radius: 0.3rem;
+}
+.shoppingcart2 button{
+    margin: 5rem 13rem;
+    height: 3rem;
+    border-radius: 0.3rem;
+    color: white;
+    background-color: #30475E;
+    font-size: 1.4rem;
+
+}
+#footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fbox1{
+    height: 25rem;
+    width: 30vw;
+    background-color: #30475E;
+    display: flex;
+}
+.fbox2{
+    height: 25rem;
+    width: 69%;
+    background-color: white;
+    display: flex;
+}
+#flogo{
+    margin: 22%;
+    margin-top: 40%;
+    margin-right: 0;
+}
+#fname{
+    margin-top: 38%;
+    margin-left: 3%;
+}
+#fname h1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.items h3{
+    color: #F05454;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 4rem 0 1rem 7rem;
+    font-weight: bold;
+}
+.points{
+    margin:1rem 0 0 7rem;
+}
+.points a{
+    color: #30475E;
+}
+.points a:hover{
+    color: black;
+    transition: 0.3s ease;
+    text-decoration: underline;
+}
+.fbox2 i{
+    margin: 7rem 0rem 0 4rem;
+}
+.iconsNcall{
+    display: flex;
+    flex-direction: column;
+}
+.callus{
+    height: 6rem;
+    width: 22rem;
+    border: 3px solid #30475E;
+    margin: 3rem 0 0 4rem;
+    display: flex;
+    border-radius: 20px;
+}
+.callus i{
+    margin: 3rem 0 0 2rem;
+}
+.callus h3{
+    margin: 1.5rem 0 0 2rem;
+}
+.copyright{
+    color: #F05454;
+}
+.copyright h4{
+    margin: 5rem 0 0 11rem;
+}
+.icons{
+    margin-left: 2rem;
+}
